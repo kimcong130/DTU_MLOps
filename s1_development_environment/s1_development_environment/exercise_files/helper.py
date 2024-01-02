@@ -36,6 +36,7 @@ def view_recon(img, recon):
         ax.set_adjustable("box-forced")
 
 
+
 def view_classify(img, ps, version="MNIST"):
     """Function for viewing an image and it's predicted classes."""
     ps = ps.data.numpy().squeeze()
@@ -68,3 +69,4 @@ def view_classify(img, ps, version="MNIST"):
     ax2.set_xlim(0, 1.1)
 
     plt.tight_layout()
+#what what what 
